@@ -134,7 +134,7 @@ def fibonacci(fibonacci_index):
         new_number = n1 + n2
         fibonacci(fibonacci_index)
         fibonacci_sequence.append(new_number)
-    print(fibonacci_sequence)
+    print(fibonacci_sequence(5))
 
 
 # Task for who want to try and solve this
@@ -152,4 +152,4 @@ def fibonacci_recursive(n):
     else:
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
 
-print(fibonacci_recursive(0))
+print(fibonacci_recursive(10))
